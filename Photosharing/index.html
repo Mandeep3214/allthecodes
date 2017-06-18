@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<title>Bootstrap layouts</title>
+	<style>
+	
+	.site-name{
+		//background-color: silver;
+	}
+	nav{
+		//background-color: silver;
+	}
+
+	ul{
+		list-style-type: none;
+	}
+	li{
+		display: inline-block;
+		padding: 3%;
+	}
+	a{
+		color:#000;
+	}
+	header{
+		//background-color: brown;
+		color:#000;
+	}
+	.red{
+		background-color: red;
+		height: 300px;
+	}
+	.orange{
+		background-color: orange;
+		height: 300px;
+	}
+	.green{
+		background-color: green;
+		height: 300px;
+	}
+	.red h1{
+		padding:20%;
+
+	}
+	.orange h1{
+		padding:20%;
+		
+	}
+	.green h1{
+		padding:20%;
+		
+	}
+	#back-div{
+		background-color: silver;
+		padding:5%;
+	}
+	.blue{
+		background-color: blue;
+		color: #fff;
+		height: 300px;
+	}
+
+	.teal{
+		background-color: teal;
+		height: 300px;
+	}
+
+	.blue h1{
+		padding: 20%;
+	}
+
+	.teal h1{
+		padding: 20%;
+	}
+	#boxoftwo{
+		padding: 5%;
+		background-color: lightgray;
+	}
+
+	#mixed{
+		background-color: gray;
+		padding: 5%;
+	}
+	</style>
+</head>
+<body>
+<header>
+ <div class="container-fluid">
+		<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 text-center" >
+					<div class="site-name">
+					<h1>Bootstrap</h1>
+					</div>
+				</div>
+
+				<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 text-center">
+					<div class="nav-bar">
+						<nav>
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Get Bootstrap</a></li>
+								<li><a href="#">Docs</a></li>
+								<li><a href="#">Videos</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+				<div>
+		</div>
+  <div>
+</header>
+
+<section id="back-div">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 col-md-12 col-sm-12">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="red">
+						<h1>im red</h1>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 ">
+						<div class="orange">
+						<h1>im orange</h1>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="green">
+						<h1>im green</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12 col-sm-12">
+					<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="green">
+						<h1>im green</h1>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="orange">
+						<h1>im orange</h1>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="red">
+						<h1>im red</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</section>
+
+<section id="boxoftwo">
+	<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-8 col-md-8 col-sm-8">
+			<div class="blue">
+			<h1>Im blue</h1>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-md-4 col-sm-4">
+			<div class="teal">
+			<h1>Im Teal</h1>
+			</div>
+		</div>
+	</div>
+	</div>
+</section>
+
+<section id="mixed">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-2 col-md-2 col-sm-2"> 
+				<div class="red">
+					<h1>Im red</h1>
+				</div>
+			</div>
+
+			<div class="col-lg-8 col-md-8 col-sm-8">
+				<div class="orange">
+					<h1>Im orange</h1>
+				</div> 
+			</div>
+
+			<div class="col-lg-2 col-md-2 col-sm-2">
+
+				<div class="green">
+					<h1>Im green</h1>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6">
+					<div class="orange">
+						<h1>im orange</h1>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-6">
+					<div class="red">
+						<h1>im red</h1>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-6">
+					<div class="green">
+						<h1>im green</h1>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-6">
+					<div class="red">
+						<h1>im red</h1>
+					</div>
+				</div>
+		</div>
+	</div>
+</section>
+</body>
+</html>
