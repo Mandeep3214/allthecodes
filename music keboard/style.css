@@ -1,0 +1,26 @@
+.btts{
+	height: 200px;
+	background-color: white;
+	box-shadow: 2px 2px 2px gray;
+}
+
+.btts:hover{
+	height: 200px;
+	background-color: white;
+	box-shadow: 2px 10px 2px gray;
+}
+
+
+.btts1{
+	height: 200px;
+	background-color: black;
+	box-shadow: 2px 2px 2px lightgray;
+
+}
+
+.btts1:hover{
+	height: 200px;
+	background-color: black;
+	box-shadow: 2px 10px 2px lightgray;
+
+}
